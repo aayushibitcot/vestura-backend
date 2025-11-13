@@ -1,0 +1,74 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+.cache/
+.tmp/
+out/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# Prisma
+prisma/dev.db
+prisma/test.db
+prisma/*.sqlite
+prisma/migrations/*.db-journal
+prisma/.env
+
+# Supabase
+.supabase/
+.supabase/functions/node_modules/
+supabase/.temp/
+supabase/.cache/
+supabase/.env
+
+# TypeScript
+*.tsbuildinfo
+
+# VSCode / JetBrains IDEs
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Local environment overrides
+.envrc
+.local/
