@@ -8,3 +8,4 @@ router.get('/', CategoryController.getCategories);
 export default router;
 
 
+
