@@ -180,7 +180,7 @@ export const ProductService = {
         totalPages: Math.ceil(total / pageSize),
       },
       category: {
-        id: `cat_${category.id}`,
+        id: category.id,
         name: category.name,
         slug: category.name.toLowerCase().replace(/\s+/g, '-'),
         description: category.description || '',

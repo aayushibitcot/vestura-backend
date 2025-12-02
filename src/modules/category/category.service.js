@@ -6,7 +6,7 @@ export const CategoryService = {
     
     // Format categories according to spec
     return categories.map((category) => ({
-      id: `cat_${category.id}`,
+      id: category.id,
       name: category.name,
       slug: category.name.toLowerCase().replace(/\s+/g, '-'),
       image: category.image || null,
