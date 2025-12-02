@@ -29,7 +29,7 @@ export const UserService = {
     if (updateData.firstName !== undefined) dataToUpdate.firstName = updateData.firstName;
     if (updateData.lastName !== undefined) dataToUpdate.lastName = updateData.lastName;
     if (updateData.phone !== undefined) dataToUpdate.phone = updateData.phone;
-    if (updateData.avatar !== undefined) dataToUpdate.avatar = updateData.avatar;
+    // if (updateData.avatar !== undefined) dataToUpdate.avatar = updateData.avatar;
 
     // Update user
     const updatedUser = await UserModel.update(id, dataToUpdate);
