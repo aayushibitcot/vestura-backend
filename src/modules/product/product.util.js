@@ -49,7 +49,7 @@ export function formatProductWithReviews(product) {
     id: `review_${review.id}`,
     userId: `user_${review.user.id}`,
     userName: `${review.user.firstName || ''} ${review.user.lastName || ''}`.trim() || review.user.username,
-    userAvatar: review.user.avatar || null,
+    // userAvatar: review.user.avatar || null,
     rating: review.rating,
     comment: review.comment || '',
     createdAt: review.createdAt.toISOString(),
