@@ -19,6 +19,7 @@ model User {
   phone     String
   role      String         @default("user")
   username  String         @unique
+  avatar    String?
   addresses Address[]
   cart      Cart?
   orders    Order[]
