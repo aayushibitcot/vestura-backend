@@ -34,7 +34,7 @@ export const UserController = {
       }
 
       const user = await UserService.updateUser(userId, req.body);
-      return successResponse(res, 'User updated successfully', { user });
+      return successResponse(res, 'User profile updated successfully', { user });
     } catch (err) {
       return next(err);
     }
